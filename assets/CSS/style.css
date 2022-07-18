@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e4ebf5;
+    font-family: sans-serif;
+    outline: none;
+}
+
+h1 {
+    background-color: #e4ebf5;
+    color: rgb(70, 70, 70);
+}
+
+span {
+    background-color: #e4ebf5;
+    color: rgb(75, 73, 73);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color: #e4ebf5;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 12px #c8d0e7, -5px -5px 12px #ffffff;
+    display: grid;
+    grid-template-columns: repeat(6, 70px);
+}
+
+input {
+    grid-column: span 6;
+    height: 70px;
+    width: 25rem;
+    background-color: #e4ebf5;
+    box-shadow: inset -5px -5px 12px #ffffff,
+        inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70, 70, 70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+button {
+    height: 48px;
+    width: 48px;
+    background-color: #e4ebf5;
+    box-shadow: 5px 5px 12px #c8d0e7, -5px -5px 12px #ffffff;
+    border: none;
+    border-radius: 20px;
+    margin: 8px;
+    font-size: 16px;
+}
+
+/* .equalbtn {
+    width: 115px;
+    border-radius: 40px;
+    background-color: #e4ebf5;
+    box-shadow: 5px 5px 12px #c8d0e7, -5px -5px 12px #FFFFFF;
+} */
+
+footer {
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #e4ebf5;
+    box-shadow: 5px 5px 12px #c8d0e7, -5px -5px 12px #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    background-color: #e4ebf5;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-content h3 {
+    background-color: #e4ebf5;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.footer-content span {
+    background-color: #e4ebf5;
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0 0 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #2c3333;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+    color: #7d9d9c;
+}
+
+@media screen and (max-width: 400px) {
+    .footer-content {
+        display: flex;
+        background-color: #e4ebf5;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

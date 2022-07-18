@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/4c81290473.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+
+    <title>CodeKofy-Calculator</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="calculator">
+          <input type="text" placeholder="0" id="output-screen" />
+
+          <button onclick="allClear()">AC</button>
+          <button onclick="fact()">x!</button>
+          <button class="btn">(</button>
+          <button class="btn">)</button>
+          <button class="btn" onclick="display('%')">%</button>
+          <button onclick="del()">DEL</button>
+
+          <button onclick="sin()">sin</button>
+          <button onclick="pi()">π</button>
+          <button class="btn">7</button>
+          <button class="btn">8</button>
+          <button class="btn">9</button>
+          <button class="btn">÷</button>
+
+          <button onclick="cos()">cos</button>
+          <button onclick="log()">log</button>
+          <button class="btn">4</button>
+          <button class="btn">5</button>
+          <button class="btn">6</button>
+          <button class="btn">×</button>
+
+          <button onclick="tan()">tan</button>
+          <button onclick="sqrt()">√</button>
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">-</button>
+
+          <button onclick="e()">e</button>
+          <button onclick="pow()">x<sup>2</sup></button>
+          <button class="btn">0</button>
+          <button class="btn">.</button>
+          <button onclick="calculate()">=</button>
+          <button class="btn">+</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <h3>CodeKofy</h3>
+        <span>Neumorphic Calculator</span>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </li>
+
+          <li>
+            <a href="https://codepen.io/hafizmp/pen/RwMKBda" target="_blank"
+              ><i class="fa-brands fa-codepen"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/mehafiz/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="#"><i class="fa-solid fa-globe"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./assets/Js/script.js"></script>
+  </body>
+</html>
