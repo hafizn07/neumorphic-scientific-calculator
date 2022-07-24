@@ -61,6 +61,10 @@ button {
     margin: 8px;
     font-size: 16px;
 }
+.ac_button{
+    color: #EB4747;
+    border-radius: 30%;
+}
 
 /* .equalbtn {
     width: 115px;
