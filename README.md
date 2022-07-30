@@ -9,6 +9,6 @@
 
 ## Screenshots
 
-![App Screenshot](./assets/images/preview.png)
+![App Screenshot](/assets/images/preview.png)
 
 
